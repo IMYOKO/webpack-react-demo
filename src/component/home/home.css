@@ -1,0 +1,6 @@
+.home-img {
+  color: red;
+  width: 300px;
+  height: 40px;
+  background: url('../../assets/images/keybox.jpg') center center no-repeat;
+}
