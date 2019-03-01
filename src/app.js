@@ -5,6 +5,7 @@ import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
 
 import Header from './component/common/header'
+import AuthRouter from './component/common/authRouter'
 import Home from './component/home/index'
 import About from './component/about/index'
 import User from './component/user/index'
@@ -27,9 +28,10 @@ class App extends Component {
             <Switch>
               <Route path='/' exact component={Home} />
               <Route path='/about' component={About} />
-              <Route path='/user' exact component={User} />
               <Route path='/news' exact component={News} />
               <Route path='/login' exact component={Login} />
+              {/* 需要登录权限 */}
+              <AuthRouter path='/user' component={User}></AuthRouter>
               <Route component={Page4O4}/>
             </Switch>
           </div>
