@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import CommonApi from '../../api/server'
 import InnerHome from './innerHome.jsx'
+import { Button } from 'antd';
 import './home.css'
 import './home.less'
 
@@ -73,6 +74,8 @@ class Home extends Component {
         <div className="home-img">
           这里是图片
         </div>
+        
+        <Button type="primary">Primary</Button>
         
         <InnerHome text={this.state.text} />
         <ul>
