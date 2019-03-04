@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Dorp from './dorp'
 
 class User extends Component {
   clearUser = () => {
@@ -10,6 +11,8 @@ class User extends Component {
       <div className="User">
         这是User
         <button onClick={this.clearUser}>清空一个</button>
+        <div>================================</div>
+        <Dorp />
       </div>
     );
   }

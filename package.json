@@ -42,6 +42,8 @@
     "axios": "^0.18.0",
     "babel-plugin-import": "^1.11.0",
     "babel-preset-latest": "^6.24.1",
+    "dragact": "^0.2.12",
+    "lazyload-loader": "^1.2.0",
     "lodash": "^4.17.11",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",

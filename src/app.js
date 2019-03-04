@@ -4,14 +4,14 @@ import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
 
-import Header from './component/common/header'
-import AuthRouter from './component/common/authRouter'
-import Home from './component/home/index'
-import About from './component/about/index'
-import User from './component/user/index'
-import News from './component/news/index'
-import Login from './component/login/index'
-import Page4O4 from './component/404/index'
+import Header from 'lazy!./component/common/header'
+import AuthRouter from 'lazy!./component/common/authRouter'
+import Home from 'lazy!./component/home/index'
+import About from 'lazy!./component/about/index'
+import User from 'lazy!./component/user/index'
+import News from 'lazy!./component/news/index'
+import Login from 'lazy!./component/login/index'
+import Page4O4 from 'lazy!./component/404/index'
 
 import Store from './store/index'
 

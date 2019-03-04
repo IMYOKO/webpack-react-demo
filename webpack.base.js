@@ -48,11 +48,11 @@ module.exports = {
       },
       {
         // test: /\.jsx?$/,
-        // test: /\.(js|mjs|jsx|ts|tsx)$/,
-        test: /\.(js|jsx)$/,
+        test: /\.(js|mjs|jsx|ts|tsx)$/,
+        // test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         include : path.resolve(__dirname, 'src'),
-        use: ['babel-loader']
+        use: ['babel-loader', 'lazyload-loader'] // lazyload-loader 组建懒加载
       }
     ]
   },
