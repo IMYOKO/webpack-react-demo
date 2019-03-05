@@ -15,7 +15,7 @@ class About extends Component {
   render() {
     return (
       <div className="About">
-        这是Abouts
+        这是Abouts1
         <button onClick={this.changeValue}>click</button>
         <About01 vals={this.state.value} />
 
