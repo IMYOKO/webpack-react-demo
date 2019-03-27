@@ -12,3 +12,32 @@ export const clicks = (value) => (dispatch) => {
     })
   }, 1000);
 }
+
+export const setSteps = (value) => {
+  return {
+    type: 'SETSTEPS',
+    value
+  }
+}
+
+export const addSteps = (key) => {
+  return {
+    type: 'ADDSTEPS',
+    key
+  }
+}
+
+export const delSteps = (key, index) => {
+  return {
+    type: 'DELSTEPS',
+    key,
+    index
+  }
+}
+
+export const addTodo = value => {
+  return {
+    type: 'ADDTODO',
+    value
+  }
+}

@@ -10,6 +10,7 @@ class Header extends Component {
           <li><Link to="/about">About</Link></li>
           <li><Link to="/user">Users</Link></li>
           <li><Link to="/news">News</Link></li>
+          <li><Link to="/todolist">todolist</Link></li>
           {/* <li><Link to="/needLogin">needLogin</Link></li> */}
         </ul>
       </div>
